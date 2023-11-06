@@ -14,11 +14,11 @@ public class Main {
         System.out.println("Vector magnitude:");
         System.out.println(Math.sqrt(vec.x * vec.x + vec.y * vec.y));
 
-        int[] nums = {1, 2, -4, 3, -1};
-
         // see Vector2D.java for other part of question 2
 
         // --- question 4 ---
+        int[] nums = {1, 2, -4, 3, -1};
+
         System.out.println("Sum:");
         System.out.println(sum(nums));
         System.out.println("Cumulative sum:");
